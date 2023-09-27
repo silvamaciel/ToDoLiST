@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/Css/Style.css">
+    <title>Lista de Tarefas</title>
+</head>
+
+<body>
+    <header>
+        <h1>Lista de Tarefas</h1>
+    </header>
+    <section class="add_Item">
+        <label for="newItem">Novo Item:</label><br>
+        <input type="text" name="newItem" id="newItem" placeholder="Nova Tarefa">
+        <button type="submit" class="add_" onclick="checarConteudo()">Adicionar</button>
+    </section>
+
+    <main class="container">
+        <section class="tarefasPendentes">
+            <h3>Tarefas Pendentes</h3>
+        </section>
+
+        <section class="tarefasConcluidas">
+            <h3>Tarefas Concluídas</h3>
+        </section>
+    </main>
+
+    <script src="assets/Js/Script.Js"></script>
+</body>
+
+</html>
